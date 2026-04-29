@@ -28,3 +28,97 @@ body {
 body {
   font-family: var(--font-geist-sans), Roboto, Arial, Helvetica, sans-serif;
 }
+
+.leaflet-container {
+  background: #0f0f0f;
+  font-family: inherit;
+}
+
+.leaflet-popup-content-wrapper,
+.leaflet-popup-tip {
+  background: #1f1f1f;
+  color: var(--yt-text);
+  box-shadow: 0 6px 24px rgba(0, 0, 0, 0.6);
+}
+
+.leaflet-popup-content {
+  margin: 12px 14px;
+  font-size: 13px;
+  line-height: 1.5;
+}
+
+.leaflet-container a.leaflet-popup-close-button {
+  color: var(--yt-text-muted);
+}
+
+.leaflet-control-attribution {
+  background: rgba(15, 15, 15, 0.85) !important;
+  color: var(--yt-text-muted) !important;
+}
+
+.leaflet-control-attribution a {
+  color: var(--yt-accent) !important;
+}
+
+.leaflet-bar a,
+.leaflet-bar a:hover {
+  background: #1f1f1f;
+  color: var(--yt-text);
+  border-color: #3f3f3f;
+}
+
+.leaflet-bar a:hover {
+  background: #3f3f3f;
+}
+
+.oasis-popup-name {
+  font-weight: 600;
+  font-size: 14px;
+  color: #fff;
+}
+
+.oasis-popup-city {
+  font-size: 12px;
+  color: var(--yt-text-muted);
+  margin-top: 2px;
+}
+
+.oasis-popup-section {
+  font-size: 11px;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  color: var(--yt-text-muted);
+  margin-top: 10px;
+  margin-bottom: 4px;
+}
+
+.oasis-popup-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.oasis-popup-event {
+  display: flex;
+  gap: 8px;
+  padding: 3px 0;
+}
+
+.oasis-popup-event > span {
+  color: var(--yt-text-muted);
+  min-width: 44px;
+  font-variant-numeric: tabular-nums;
+}
+
+.oasis-popup-empty {
+  color: var(--yt-text-muted);
+  font-style: italic;
+}
+
+.oasis-popup-link {
+  display: inline-block;
+  margin-top: 10px;
+  color: var(--yt-accent);
+  font-size: 12px;
+  font-weight: 500;
+}
