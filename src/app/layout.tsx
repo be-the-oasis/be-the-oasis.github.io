@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
 import Link from "next/link";
+import OasisMark from "./_components/OasisMark";
 import "./globals.css";
 
 const geistSans = Geist({
@@ -34,8 +35,9 @@ export default function RootLayout({
           <div className="mx-auto max-w-6xl px-6 h-14 flex items-center justify-between">
             <Link
               href="/"
-              className="font-semibold tracking-tight text-[15px] text-white"
+              className="flex items-center gap-2 font-semibold tracking-tight text-[15px] text-white"
             >
+              <OasisMark size={18} />
               Be the Oasis
             </Link>
             <nav className="text-sm text-[#aaa] flex gap-6">

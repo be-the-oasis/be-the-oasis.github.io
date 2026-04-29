@@ -34,6 +34,22 @@ body {
   font-family: inherit;
 }
 
+.oasis-pin {
+  background: transparent !important;
+  border: 0 !important;
+}
+
+.oasis-pin svg {
+  display: block;
+  filter: drop-shadow(0 2px 4px rgba(0, 0, 0, 0.7));
+  cursor: pointer;
+  transition: transform 120ms ease;
+}
+
+.oasis-pin:hover svg {
+  transform: translateY(-2px) scale(1.05);
+}
+
 .leaflet-popup-content-wrapper,
 .leaflet-popup-tip {
   background: #1f1f1f;

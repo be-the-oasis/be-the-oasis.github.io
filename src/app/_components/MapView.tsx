@@ -3,6 +3,7 @@
 import { useEffect, useRef } from "react";
 import "leaflet/dist/leaflet.css";
 import { VENUES, type Venue } from "./venues";
+import { oasisMarkSVG } from "./OasisMark";
 
 function popupHTML(v: Venue) {
   const events = v.events
@@ -57,14 +58,18 @@ export default function MapView() {
         },
       ).addTo(map);
 
+      const PIN_W = 26;
+      const PIN_H = Math.round(PIN_W * 1.2);
+      const icon = L.divIcon({
+        className: "oasis-pin",
+        html: oasisMarkSVG(PIN_W),
+        iconSize: [PIN_W, PIN_H],
+        iconAnchor: [PIN_W / 2, PIN_H],
+        popupAnchor: [0, -PIN_H + 4],
+      });
+
       VENUES.forEach((v) => {
-        L.circleMarker([v.lat, v.lng], {
-          radius: 7,
-          color: "#ffffff",
-          weight: 2,
-          fillColor: "#ff4d4d",
-          fillOpacity: 1,
-        })
+        L.marker([v.lat, v.lng], { icon })
           .addTo(map)
           .bindPopup(popupHTML(v), { closeButton: true, maxWidth: 260 });
       });
