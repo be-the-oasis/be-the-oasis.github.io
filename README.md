@@ -41,6 +41,7 @@ Use this section to add questions for teammates, reviewers, or collaborators.
 - Should we add a mobile-specific view for venue details?
 - What is the priority order for new homepage sections?
 - Hi John: can you review the current map interaction and suggest any UX improvements?
+- Please change the buttons to be thin and rectangular instead of the rounded YouTube-style buttons, and add a large green `betheoasis` pennant above the main text at the top of the site.
 
 > Add your questions here so the team can see them and respond directly in PRs or issues.
 
