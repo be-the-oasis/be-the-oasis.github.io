@@ -21,13 +21,7 @@ export default function Home() {
               href="#find"
               className="rounded-full bg-white text-black hover:bg-[#e5e5e5] px-5 py-2 font-medium"
             >
-              Find a space
-            </a>
-            <a
-              href="#register"
-              className="rounded-full bg-[#272727] hover:bg-[#3f3f3f] text-white px-5 py-2 font-medium"
-            >
-              List your venue
+              Explore spaces
             </a>
           </div>
         </div>

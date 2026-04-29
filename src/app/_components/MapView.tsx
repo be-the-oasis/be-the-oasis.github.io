@@ -86,7 +86,7 @@ export default function MapView() {
   return (
     <div
       ref={containerRef}
-      className="h-[520px] w-full rounded-xl overflow-hidden border border-[#272727]"
+      className="h-[640px] w-full rounded-xl overflow-hidden border border-[#272727]"
       role="application"
       aria-label="Map of phone-free event spaces"
     />

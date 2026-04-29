@@ -40,15 +40,18 @@ export default function RootLayout({
               <OasisMark size={18} />
               Be the Oasis
             </Link>
-            <nav className="text-sm text-[#aaa] flex gap-6">
-              <Link href="/#find" className="hover:text-white">
-                Find a Space
+            <nav className="flex items-center gap-3 sm:gap-5 text-sm">
+              <Link
+                href="/#find"
+                className="text-[#aaa] hover:text-white"
+              >
+                Find a space
               </Link>
-              <Link href="/#register" className="hover:text-white">
-                Register
-              </Link>
-              <Link href="/#submit" className="hover:text-white">
-                Submit Event
+              <Link
+                href="/host"
+                className="rounded-full bg-white text-black hover:bg-[#e5e5e5] px-4 py-1.5 font-medium"
+              >
+                Become a host
               </Link>
             </nav>
           </div>
