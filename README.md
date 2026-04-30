@@ -43,6 +43,7 @@ Use this section to add questions for teammates, reviewers, or collaborators.
 - Hi John: can you review the current map interaction and suggest any UX improvements?
 - Please change the buttons to be thin and rectangular instead of the rounded YouTube-style buttons, and add a large green `betheoasis` pennant above the main text at the top of the site.
 - Change the `Become a host` button text to `Register a space`.
+- Add a button in the top right that says something like `Already know of a phone-free space?`; opening it should go to a page where people can alert us about a space that needs to join the directory so we can follow up with them.
 - Eventually we will need to add a way to explore spaces that displays spaces and events in a calendar view. Viewers should be able to see what Oasis events are available each day of the week in each city/area.
 
 > Add your questions here so the team can see them and respond directly in PRs or issues.
