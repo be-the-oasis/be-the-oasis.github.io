@@ -1,7 +1,7 @@
 export type Event = {
   id: string;
   title: string;
-  date: string;
+  date: string; // ISO date: YYYY-MM-DD
 };
 
 export type Venue = {
@@ -23,8 +23,8 @@ export const VENUES: Venue[] = [
     lat: 40.6782,
     lng: -73.9442,
     events: [
-      { id: "qg-1", title: "Long-form letters night", date: "May 4" },
-      { id: "qg-2", title: "Sunday tea + strangers", date: "May 11" },
+      { id: "qg-1", title: "Long-form letters night", date: "2026-05-04" },
+      { id: "qg-2", title: "Sunday tea + strangers", date: "2026-05-11" },
     ],
   },
   {
@@ -35,8 +35,8 @@ export const VENUES: Venue[] = [
     lat: 37.8044,
     lng: -122.2712,
     events: [
-      { id: "lh-1", title: "Phones-in-the-basket dinner", date: "May 6" },
-      { id: "lh-2", title: "Vinyl + conversation", date: "May 18" },
+      { id: "lh-1", title: "Phones-in-the-basket dinner", date: "2026-05-06" },
+      { id: "lh-2", title: "Vinyl + conversation", date: "2026-05-18" },
     ],
   },
   {
@@ -47,7 +47,7 @@ export const VENUES: Venue[] = [
     lat: 35.5951,
     lng: -82.5515,
     events: [
-      { id: "fs-1", title: "Storytelling around the fire", date: "May 9" },
+      { id: "fs-1", title: "Storytelling around the fire", date: "2026-05-09" },
     ],
   },
   {
@@ -58,8 +58,8 @@ export const VENUES: Venue[] = [
     lat: 30.2672,
     lng: -97.7431,
     events: [
-      { id: "sr-1", title: "Slow breakfast salon", date: "May 12" },
-      { id: "sr-2", title: "Hand-written letters workshop", date: "May 22" },
+      { id: "sr-1", title: "Slow breakfast salon", date: "2026-05-12" },
+      { id: "sr-2", title: "Hand-written letters workshop", date: "2026-05-22" },
     ],
   },
   {
@@ -70,7 +70,7 @@ export const VENUES: Venue[] = [
     lat: 47.6062,
     lng: -122.3321,
     events: [
-      { id: "dw-1", title: "Dance + dinner, no screens", date: "May 16" },
+      { id: "dw-1", title: "Dance + dinner, no screens", date: "2026-05-16" },
     ],
   },
   {
@@ -81,8 +81,8 @@ export const VENUES: Venue[] = [
     lat: 45.5152,
     lng: -122.6784,
     events: [
-      { id: "fs2-1", title: "Garden supper club", date: "May 24" },
-      { id: "fs2-2", title: "Reading hour, out loud", date: "Jun 1" },
+      { id: "fs2-1", title: "Garden supper club", date: "2026-05-24" },
+      { id: "fs2-2", title: "Reading hour, out loud", date: "2026-06-01" },
     ],
   },
 ];

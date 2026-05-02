@@ -5,6 +5,17 @@ export default function Home() {
     <>
       <section className="border-b border-[#272727]">
         <div className="mx-auto max-w-3xl px-6 py-20 text-center">
+          <div className="flex justify-center mb-8">
+            <span
+              className="inline-block bg-emerald-500 text-black font-extrabold tracking-tight text-2xl sm:text-3xl px-8 sm:px-10 py-3 sm:py-4 shadow-[6px_6px_0_0_rgba(0,0,0,0.6)]"
+              style={{
+                clipPath:
+                  "polygon(0 0, calc(100% - 1.75rem) 0, 100% 50%, calc(100% - 1.75rem) 100%, 0 100%)",
+              }}
+            >
+              betheoasis
+            </span>
+          </div>
           <p className="uppercase tracking-[0.2em] text-[11px] text-[#aaa] mb-4">
             a pause in the ether
           </p>
@@ -19,7 +30,7 @@ export default function Home() {
           <div className="mt-8 flex flex-wrap justify-center gap-3 text-sm">
             <a
               href="#find"
-              className="rounded-full bg-white text-black hover:bg-[#e5e5e5] px-5 py-2 font-medium"
+              className="bg-white text-black hover:bg-[#e5e5e5] px-5 py-1.5 font-medium"
             >
               Explore spaces
             </a>

@@ -48,10 +48,16 @@ export default function RootLayout({
                 Find a space
               </Link>
               <Link
-                href="/host"
-                className="rounded-full bg-white text-black hover:bg-[#e5e5e5] px-4 py-1.5 font-medium"
+                href="/suggest-a-space"
+                className="hidden sm:inline-block border border-[#3f3f3f] text-[#f1f1f1] hover:bg-[#272727] px-3 py-1.5 font-medium"
               >
-                Become a host
+                Already know of a phone-free space?
+              </Link>
+              <Link
+                href="/host"
+                className="bg-white text-black hover:bg-[#e5e5e5] px-4 py-1.5 font-medium"
+              >
+                Register a space
               </Link>
             </nav>
           </div>

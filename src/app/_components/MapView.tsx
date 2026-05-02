@@ -5,12 +5,19 @@ import "leaflet/dist/leaflet.css";
 import { VENUES, type Venue } from "./venues";
 import { oasisMarkSVG } from "./OasisMark";
 
+const DATE_FMT = new Intl.DateTimeFormat(undefined, { month: "short", day: "numeric" });
+
+function formatEventDate(iso: string): string {
+  const [y, m, d] = iso.split("-").map(Number);
+  return DATE_FMT.format(new Date(y, m - 1, d));
+}
+
 function popupHTML(v: Venue) {
   const events = v.events
     .slice(0, 3)
     .map(
       (e) =>
-        `<li class="oasis-popup-event"><span>${e.date}</span>${escape(e.title)}</li>`,
+        `<li class="oasis-popup-event"><span>${escape(formatEventDate(e.date))}</span>${escape(e.title)}</li>`,
     )
     .join("");
   return `

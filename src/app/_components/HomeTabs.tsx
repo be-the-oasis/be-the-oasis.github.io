@@ -4,6 +4,7 @@ import { useState } from "react";
 import dynamic from "next/dynamic";
 import { MapPin } from "lucide-react";
 import { VENUES } from "./venues";
+import CalendarView from "./CalendarView";
 
 const MapView = dynamic(() => import("./MapView"), {
   ssr: false,
@@ -14,7 +15,7 @@ const MapView = dynamic(() => import("./MapView"), {
   ),
 });
 
-type FindView = "map" | "list";
+type FindView = "map" | "list" | "calendar";
 
 export default function HomeTabs() {
   const [view, setView] = useState<FindView>("map");
@@ -30,11 +31,16 @@ export default function HomeTabs() {
           <ViewToggleButton active={view === "list"} onClick={() => setView("list")}>
             List
           </ViewToggleButton>
+          <ViewToggleButton active={view === "calendar"} onClick={() => setView("calendar")}>
+            Calendar
+          </ViewToggleButton>
         </div>
       </div>
 
       {view === "map" ? (
         <MapView />
+      ) : view === "calendar" ? (
+        <CalendarView />
       ) : (
         <div className="grid gap-x-5 gap-y-10 sm:grid-cols-2 lg:grid-cols-3">
           {VENUES.map((v) => (
@@ -70,7 +76,7 @@ function ViewToggleButton({
       type="button"
       onClick={onClick}
       className={
-        "rounded-full px-5 py-2 text-sm font-medium transition-colors " +
+        "px-4 py-1.5 text-sm font-medium transition-colors " +
         (active
           ? "bg-white text-black"
           : "bg-[#272727] text-[#f1f1f1] hover:bg-[#3f3f3f]")

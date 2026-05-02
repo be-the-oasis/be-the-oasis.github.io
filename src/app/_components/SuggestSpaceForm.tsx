@@ -1,6 +1,6 @@
 "use client";
 
-export default function HostForm() {
+export default function SuggestSpaceForm() {
   return (
     <form
       className="space-y-5"
@@ -8,30 +8,39 @@ export default function HostForm() {
         e.preventDefault();
       }}
     >
-      <Field label="Business name" name="business_name" placeholder="e.g. Lantern Hall" />
-      <Field label="Contact email" name="email" type="email" placeholder="you@example.com" />
+      <Field label="Space name" name="space_name" placeholder="e.g. The Quiet Garden" />
       <Field label="City" name="city" placeholder="Brooklyn, NY" />
-      <Field label="Capacity" name="capacity" type="number" placeholder="e.g. 40" />
+      <Field
+        label="Where can we find them?"
+        name="contact"
+        placeholder="Website, Instagram, address, or anything that helps us reach them"
+      />
       <div>
         <label
-          htmlFor="description"
+          htmlFor="notes"
           className="block text-sm font-medium mb-1.5 text-[#f1f1f1]"
         >
-          Describe your space
+          What makes it a good fit?
         </label>
         <textarea
-          id="description"
-          name="description"
-          rows={5}
+          id="notes"
+          name="notes"
+          rows={4}
           className="w-full rounded-lg bg-[#1f1f1f] border border-[#3f3f3f] focus:border-[#3ea6ff] focus:outline-none px-3 py-2 text-sm placeholder:text-[#717171]"
-          placeholder="What kind of phone-free gatherings can it host? What does the room feel like?"
+          placeholder="What kind of gatherings do they host? Have they done phone-free events before?"
         />
       </div>
+      <Field
+        label="Your email (optional)"
+        name="your_email"
+        type="email"
+        placeholder="So we can follow up if we have questions"
+      />
       <button
         type="submit"
         className="bg-white text-black hover:bg-[#e5e5e5] px-5 py-1.5 text-sm font-medium"
       >
-        Submit for review
+        Send the tip
       </button>
     </form>
   );
