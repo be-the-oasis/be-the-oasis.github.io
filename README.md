@@ -39,6 +39,49 @@ npm start
 - Renamed the `Become a host` CTA and `/host` page heading to `Register a space`.
 - Added a header link `Already know of a phone-free space?` that opens `/suggest-a-space`, a tip form for surfacing venues we should follow up with.
 
+## Community Initiatives
+
+### What Can You Actually Do?
+
+Struggling with the question, "What can I actually do?" If you're a parent, twenty-something out of college, or literally anyone who feels the effects of the isolation perpetuated by the ever-present domination of phones and technology, you are far from alone.
+
+**Starting a Reconnect community initiative takes away confusion about what to do about this problem.**
+
+Phone-free social spaces are the injection of presence and humanity all our communities could use.
+
+### Start a Reconnect Community Initiative
+
+Rally all the leaders and change-makers in your area around the common goal of phone-free social spaces:
+
+- **Host phone-free backyard dinners** for the neighborhood
+- **Organize phone-free coffee shop philosophy nights**
+- **Collaborate with local libraries** to provide phone-free spaces for youth
+- **Create community-led connection events** tailored to your area's needs
+
+### Featured Press
+
+Our movement has been featured in:
+- The New York Times
+- TIME
+- The New York Post
+- The London Times
+- USA Today
+- Business Insider
+
+---
+
+### You Are Not Alone
+
+There is something you can do. Let us be the catalyst for real change in your community.
+
+### [Start a Community Initiative](https://betheoasis.typeform.com/community-initiative)
+
+Tell us about yourself, tell us what you need, and let's build phone-free spaces together.
+
+**Join the movement.**
+
+---
+
 ## Collaboration Questions
 
 Use this section to add questions for teammates, reviewers, or collaborators.
