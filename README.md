@@ -70,6 +70,20 @@ Our movement has been featured in:
 
 ---
 
+### Current Community Initiatives
+
+#### Reconnect Sudbury
+
+**About:** Reconnect Sudbury is pioneering a community effort dedicated to defeating tech-induced isolation by collaborating to create phone-free social spaces all throughout their community. Everywhere from the senior center, to local private homes outfitted for phone-free events, to libraries are involved. As the pilot of Reconnect community initiatives, they are paving the way and showing what's possible for a community that puts their heads together on how they can utilize phone-free social spaces to revitalize human connection in their area.
+
+**Follow Reconnect Sudbury:**
+- [To be added]
+
+**Community Events:**
+- [To be added]
+
+---
+
 ### You Are Not Alone
 
 There is something you can do. Let us be the catalyst for real change in your community.
